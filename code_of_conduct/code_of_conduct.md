@@ -1,7 +1,7 @@
 <!--
 author:   Compliance Advantage
 email:    sales@complianceadvantage.io
-version:  1.0.0
+version:  0.0.1
 language: en
 narrator: US English Male
 link:     ../custom.css
@@ -12,6 +12,8 @@ icon:     ../logo_small.png
 
 Welcome to the training session on our **Company Code of Conduct**. This presentation will guide you through the key principles and expectations that define our workplace culture and ethical standards.
 
+<p>Brought to you by Compliance Advantage</p>
+<p>![Compliance Advantage logo](../logo_three_sheets.png)</p>
 
 ---
 
