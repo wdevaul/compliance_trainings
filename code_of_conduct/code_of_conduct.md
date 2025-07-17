@@ -5,7 +5,7 @@ version:  1.0.0
 language: en
 narrator: US English Male
 link:     ../custom.css
-icon:     ../compliance_advantage_logo_single_sheet.png
+icon:     ../logo_small.png
 -->
 
 # Company Code of Conduct
