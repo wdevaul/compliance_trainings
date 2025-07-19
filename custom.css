@@ -1,5 +1,15 @@
 :root {
-	--main-bg-color: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%);
+	--main-bg-color: #1e3a8a !important;
+   /* Override LiaScript's default color variables */
+  --color-highlight: #1e3a8a !important;
+  --lia-turquoise: #1e3a8a !important;
+  --lia-teal: #1e3a8a !important;
+  --lia-green: #1e3a8a !important;
+  --lia-primary: #1e3a8a !important;
+  --primary-color: #1e3a8a !important;
+  --accent-color: #1e3a8a !important;
+  --highlight-color: #1e3a8a !important;
+  --link-color: blue  !important;
   }
   
   body {
@@ -63,7 +73,12 @@
 
   .lia-checkbox{
     border: 1px solid gray !important;
+    color: black !important;
   }
+
+  .lia-checkbox::after {
+  color: black !important;
+  } 
 
   .lia-header{
     background-color: #1e3a8a !important;
@@ -89,4 +104,62 @@
   .lia-btn{
     color: white !important;
   }
+
+
+  /* Top toolbar styling */
+/* .lia-toolbar,
+.lia-toolbar-main,
+.lia-header,
+.lia-top-toolbar {
+  background-color: var(--main-bg-color) !important;
+  color: white !important;
+} */
+
+/* Toolbar buttons and elements */
+/* .lia-toolbar .lia-btn,
+.lia-toolbar button,
+.lia-header .lia-btn {
+  background-color: white !important;
+  color: var(--main-bg-color) !important;
+  border: 1px solid white !important;
+} */
+
+/* Left sidebar (table of contents) */
+.lia-toc,
+.lia-sidebar,
+.lia-navigation-left {
+  background-color: var(--main-bg-color) !important;
+  color: white !important;
+}
+
+/* Sidebar items */
+.lia-toc ul,
+.lia-toc li,
+.lia-toc a {
+  color: white !important;
+}
+
+/* Active/selected sidebar item */
+.lia-toc .lia-active,
+.lia-toc li.lia-active,
+.lia-toc a.lia-active,
+.lia-sidebar .lia-active {
+  background-color: white !important;
+  color: var(--main-bg-color) !important;
+}
+
+/* Sidebar hover effects */
+.lia-toc li:hover,
+.lia-toc a:hover {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+/* If there's a specific class for the red highlight you mentioned */
+.lia-toc .lia-selected,
+.lia-sidebar .lia-selected {
+  background-color: white !important;
+  color: var(--main-bg-color) !important;
+}
+
+  
 
