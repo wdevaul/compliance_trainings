@@ -1,5 +1,5 @@
 :root {
-	--main-bg-color: #0015ff;
+	--main-bg-color: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%);
   }
   
   body {
@@ -60,3 +60,33 @@
   .lia-link {
 	color: #00FF00 !important
   }
+
+  .lia-checkbox{
+    border: 1px solid gray !important;
+  }
+
+  .lia-header{
+    background-color: #1e3a8a !important;
+    margin: 0 !important;
+  }
+
+  .lia-support-menu__nav{
+    
+  }
+
+  .lia-support-menu__collapse{
+    background-color: #1e3a8a !important
+  }
+
+  .lia-support-menu__toggler{
+    color: white !important;
+  }
+
+  .lia-pagination__content{
+    background-color:#1e3a8a !important;
+  }
+
+  .lia-btn{
+    color: white !important;
+  }
+
