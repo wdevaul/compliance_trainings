@@ -4,8 +4,8 @@ email:    sales@complianceadvantage.io
 version:  0.0.1
 language: en
 narrator: US English Male
-link:     ../custom.css
-icon:     ../logo_small.png
+link:     https://complianceadvantage.io/lms_custom.css
+icon:     https://complianceadvantage.io/logo_small.png
 -->
 
 # Company Code of Conduct
